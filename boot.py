@@ -10,5 +10,5 @@ ota_updater.download_and_install_update_if_available()
 
 pin = Pin(8, Pin.OUT)  
 np = NeoPixel(pin, 1)  
-np[0] = (0, 25, 0)  
+np[0] = (0, 0, 25)  
 np.write()            
